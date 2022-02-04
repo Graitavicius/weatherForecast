@@ -1,0 +1,82 @@
+.results {
+  padding-top: 2vw;
+  width: 40%;
+  height: 100vh;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.today-weather {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.title {
+  text-decoration: underline rgba(255, 97, 97, 0.6);
+  text-decoration-thickness: 7px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: left;
+}
+
+.temperature {
+  font-size: 4rem;
+  text-align: center;
+  margin: 1rem;
+}
+
+.description {
+  text-align: center;
+  font-weight: bold;
+}
+
+.time {
+  text-align: center;
+}
+
+.weather-info {
+  display: grid;
+  grid-template-areas:
+    "wind feeling"
+    "pressure humidity";
+
+  text-align: center;
+}
+
+.wind {
+  grid-area: wind;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.feeling {
+  grid-area: feeling;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.pressure {
+  grid-area: pressure;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.humidity {
+  grid-area: humidity;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.no-results {
+  margin: 0 auto;
+  align-self: center;
+}
+
+.message {
+  color: white;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}

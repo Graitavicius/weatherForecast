@@ -1,0 +1,22 @@
+.location-list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.location-list-item {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.location-list-item:last-child {
+  margin-bottom: 0;
+}
+
+.location-list-item:hover,
+.location-list-item:focus {
+  transform: scale(1.1);
+  transition: 200ms ease-in;
+  font-weight: bold;
+}
