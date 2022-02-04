@@ -1,8 +1,6 @@
 .main-page {
-  padding-top: 7vw;
-  width: 60%;
-  height: 100vh;
-  border-right: 3px solid rgba(0, 0, 0, 0.384);
+  padding-top: 5vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,4 +50,9 @@
 .locations {
   width: 80%;
   margin: 2rem auto;
+}
+
+.invalid {
+  color: red;
+  background: red;
 }
