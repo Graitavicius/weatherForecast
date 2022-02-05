@@ -14,8 +14,13 @@ const MainPage = (props) => {
     props.onShowDetails(id);
   };
 
+  const mainPageClasses =
+    searchInput === ""
+      ? classes["main-page"]
+      : `${classes["main-page"]} ${classes["no-results"]}`;
+
   return (
-    <div className={classes["main-page"]}>
+    <div className={mainPageClasses}>
       <h1 className={classes.title}>The only weather forecast you need</h1>
       <div>
         <input

@@ -11,3 +11,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+@media (max-width: 40rem) {
+  body {
+    background-size: auto;
+  }
+}

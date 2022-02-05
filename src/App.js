@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import classes from "./App.module.css";
 import MainPage from "./components/MainPage";
-import Results from "./components/Results";
+import Results from "./components/Results/Results";
 
 function App() {
   const [id, setId] = useState("");

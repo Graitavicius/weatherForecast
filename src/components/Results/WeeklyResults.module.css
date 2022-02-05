@@ -1,0 +1,72 @@
+.weekly-weather {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.title {
+  text-decoration: underline rgba(255, 97, 97, 0.6);
+  text-decoration-thickness: 7px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: left;
+}
+
+.one-day-weather {
+  margin-bottom: 0.5rem;
+}
+
+.one-day-weather:last-child {
+  margin-bottom: 2rem;
+}
+
+.each-day-weather {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.max-temperature {
+  font-weight: bold;
+  text-align: right;
+}
+
+.min-temperature {
+  text-align: right;
+}
+
+.weather-description {
+  font-weight: bold;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  justify-self: flex-start;
+}
+
+.description-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+}
+
+@media (max-width: 40rem) {
+  .weekly-weather {
+    width: 100%;
+  }
+
+  .title {
+    margin-top: 2rem;
+  }
+
+  .each-day-weather {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
