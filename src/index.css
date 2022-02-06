@@ -7,12 +7,12 @@
 
 body {
   margin: 0;
-  background: url(assets/background.jpg);
+  background-image: url(assets/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-@media (max-width: 40rem) {
+@media (max-width: 1200px) {
   body {
     background-size: auto;
   }

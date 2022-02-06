@@ -16,10 +16,3 @@ const Results = (props) => {
 };
 
 export default Results;
-// {!weatherNowInfo && (
-//   <div className={classes["no-results"]}>
-//     <p className={classes.message}>
-//       Please enter and select a location to see weather forecast
-//     </p>
-//   </div>
-// )}
