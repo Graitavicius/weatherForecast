@@ -1,3 +1,11 @@
+# The main purpose of the application is to quickly check the weather today and upcoming weather for the week
+
+Functionality is quite simple. There is a search input which takes a value and sends a http request to get the data from the api. The data is displayed in 2 components, one for todays weather and the other for weekly weather.
+
+## I am mostly familiar with front-end so I have decided to focus on that.
+This project has made me realise that I need to put more focus on back-end. That is my next goal.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
